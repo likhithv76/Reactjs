@@ -1,0 +1,93 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.whole {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: center;
+}
+
+.cards {
+  width: 30rem;
+  margin: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.img-name {
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.img-name h2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img-name a {
+  text-decoration: none;
+}
+
+.card-links a {
+  color: #868e96;
+  display: block;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+
+.card-links a:hover {
+  text-decoration: underline;
+}
+
+.card-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.card-buttons button {
+  padding: 10px 90px 10px 90px;
+  font-size: large;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #1c7ed6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flwButton {
+  color: white;
+}
+
+svg {
+  width: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+  .whole {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards {
+    width: 90%;
+  }
+  .card-buttons{
+    width: 60%;
+  }
+}
